@@ -1,0 +1,3 @@
+BEGIN
+IF (X = 2)
+END

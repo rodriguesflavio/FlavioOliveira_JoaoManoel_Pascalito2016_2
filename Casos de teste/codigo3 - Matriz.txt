@@ -1,0 +1,29 @@
+Program Matriz ;
+
+VAR
+i,j,k: integer;
+M: array [1..4, 1..4] of integer;
+
+Begin
+For i:= 1 to 3 do
+For j:= 1 to 3 do
+Begin
+write('Entre com o valor M[',i, ',',j, '] : ');
+readln(M[i,j]);
+End;
+
+write('Entre com um valor K : ');
+readln(k);
+
+writeln('Matriz original : ');
+For i:= 1 to 3 do
+writeln(M[i,1]:4, M[i,2]:4, M[i,3]:4);
+
+For i:= 1 to 3 do
+M [ i, i ] := K * M [ i, i ] ;
+
+writeln('Nova Matriz : ');
+For i:= 1 to 3 do
+writeln(M[i,1]:4, M[i,2]:4, M[i,3]:4);
+
+End.

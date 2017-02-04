@@ -1,0 +1,10 @@
+/* este eh um exemplo de comentário de bloco */
+/* este eh um exemplo de comentário de bloco 
+com quebra de linha */
+
+/* este eh um exemplo  
+/* de comentário de bloco 
+com quebra de linha */ 
+e aninhamento */
+
+// este eh um exemplo de comentário de linha
